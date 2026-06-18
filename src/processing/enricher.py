@@ -127,6 +127,4 @@ class DataEnricher(Processor):
                 elif condition == "gt" and isinstance(val, (int, float)) and val > tag_def.get("value", 0):
                     tags.append(tag_value)
                 elif condition == "lt" and isinstance(val, (int, float)) and val > tag_def.get("value", 0):
-                    tags.append(tag_value)
-
-        return tags
+                                    elif condition == "lt" and isinstance(val, (int, float)) and val < tag_def.get("value", 0):
