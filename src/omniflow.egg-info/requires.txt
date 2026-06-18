@@ -1,0 +1,9 @@
+pydantic<3.0,>=2.0
+pyyaml<7.0,>=6.0
+httpx<1.0,>=0.27
+orjson<4.0,>=3.9
+
+[dev]
+pytest<9.0,>=8.0
+pytest-asyncio<1.0,>=0.23
+pytest-cov<6.0,>=5.0
