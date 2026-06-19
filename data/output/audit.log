@@ -1,3 +1,4 @@
 {"timestamp": "2026-06-17T08:11:41.637131+00:00", "event_type": "ingestion", "document_id": "doc-1", "source": "src", "success": true, "error": null}
 {"timestamp": "2026-06-17T08:13:41.527973+00:00", "event_type": "ingestion", "document_id": "doc-1", "source": "src", "success": true, "error": null}
 {"timestamp": "2026-06-17T08:14:52.887463+00:00", "event_type": "ingestion", "document_id": "doc-1", "source": "src", "success": true, "error": null}
+{"timestamp": "2026-06-19T06:45:07.958506+00:00", "event_type": "ingestion", "document_id": "doc-1", "source": "src", "success": true, "error": null}
