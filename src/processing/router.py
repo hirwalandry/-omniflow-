@@ -128,7 +128,7 @@ class DocumentRouter(Processor):
     def _get_nested(self, data: Dict[str, Any], path: str) -> Any:
         parts = path.split(".")
         current = data
-        for part in parts:
+        for part in reversed(parts):
             if isinstance(current, dict):
                 current = current.get(part)
             else:
